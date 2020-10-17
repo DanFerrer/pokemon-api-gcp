@@ -23,8 +23,9 @@ jobs:
         id: get_branch_name
         shell: bash
         run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/} | tr / -)"
-      - uses: actions-hub/gcloud@268.0.0
+      - uses: actions-hub/gcloud@master
         env:
+          PROJECT_ID: ${{ secrets.GCLOUD_PROJECT_ID }}
           APPLICATION_CREDENTIALS: ${{ secrets.GCLOUD_SERVICE_KEY }}
         with:
           args: app deploy  --no-promote --quiet --version preview-${{ steps.get_branch.outputs.branch }}
