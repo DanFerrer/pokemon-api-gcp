@@ -23,8 +23,8 @@ jobs:
         id: get_branch_name
         shell: bash
         run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/} | tr / -)"
-      - uses: actions-hub/gcloud@master
       - uses: actions/checkout@v2
+      - uses: actions-hub/gcloud@master
         with:
           args: app deploy app.yaml --no-promote --quiet --version stage-${{ steps.get_branch_name.outputs.branch }}
     env:
