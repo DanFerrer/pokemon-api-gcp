@@ -1,4 +1,4 @@
-name: appengine-prune
+name: pokemon-api-prune
 
 on:
   pull_request:

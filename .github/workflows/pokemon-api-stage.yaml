@@ -25,7 +25,7 @@ jobs:
         run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/} | tr / -)"
       - uses: actions-hub/gcloud@master
         with:
-          args: app deploy --no-promote --quiet --version stage-${{ steps.get_branch_name.outputs.branch }}
+          args: app deploy app.yaml --no-promote --quiet --version stage-${{ steps.get_branch_name.outputs.branch }}
     env:
       PROJECT_ID: ${{ secrets.GCLOUD_PROJECT_ID }}
       APPLICATION_CREDENTIALS: ${{ secrets.GCLOUD_SERVICE_KEY }}
