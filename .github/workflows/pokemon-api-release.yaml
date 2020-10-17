@@ -19,6 +19,15 @@ jobs:
   deploy_release:
     runs-on: ubuntu-latest
     steps:
+      - name: Create GitHub deployment
+      - uses: actions/checkout@v1
+      - uses: chrnorm/deployment-action@releases/v1
+        id: deployment
+        with: 
+          token: ${{ github.token }}
+          target_url: http://my-app-url.com
+          initial_status: in_progress
+          environment: production
       - name: Get Tag Name
         id: get_tag_name
         shell: bash
@@ -29,6 +38,25 @@ jobs:
           APPLICATION_CREDENTIALS: ${{ secrets.GCLOUD_SERVICE_KEY }}
         with:
           args: app deploy  --no-promote --quiet --version ${{ steps.get_branch_name.outputs.branch }}
+      - name: Update deployment status (success)
+        if: success()
+        uses: chrnorm/deployment-status@releases/v1
+        with:
+          token: "${{ github.token }}"
+          target_url: http://my-app-url.com
+          state: "success"
+          deployment_id: ${{ steps.deployment.outputs.deployment_id }}
+      - name: Update deployment status (failure)
+        if: failure()
+        uses: chrnorm/deployment-status@releases/v1
+        with:
+          token: "${{ github.token }}"
+          target_url: http://my-app-url.com
+          state: "failure"
+          deployment_id: ${{ steps.deployment.outputs.deployment_id }}
+
+
+
   
 
     
