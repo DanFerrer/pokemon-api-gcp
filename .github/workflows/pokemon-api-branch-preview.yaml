@@ -28,7 +28,7 @@ jobs:
           PROJECT_ID: ${{ secrets.GCLOUD_PROJECT_ID }}
           APPLICATION_CREDENTIALS: ${{ secrets.GCLOUD_SERVICE_KEY }}
         with:
-          args: app deploy app.yaml --no-promote --quiet --version preview-${{ steps.get_branch_name.outputs.branch }} 
+          args: app deploy ./app.yaml --no-promote --quiet --version preview-${{ steps.get_branch_name.outputs.branch }} 
     
    
 

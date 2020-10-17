@@ -20,7 +20,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Create GitHub deployment
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v2
       - uses: chrnorm/deployment-action@releases/v1
         id: deployment
         with: 
@@ -37,7 +37,7 @@ jobs:
           PROJECT_ID: ${{ secrets.GCLOUD_PROJECT_ID }}
           APPLICATION_CREDENTIALS: ${{ secrets.GCLOUD_SERVICE_KEY }}
         with:
-          args: app deploy app.yaml --no-promote --quiet --version ${{ steps.get_branch_name.outputs.branch }}
+          args: app deploy ./app.yaml --no-promote --quiet --version ${{ steps.get_branch_name.outputs.branch }}
       - name: Update deployment status (success)
         if: success()
         uses: chrnorm/deployment-status@releases/v1
