@@ -1,0 +1,19 @@
+name: appengine-prune
+
+on:
+  pull_request:
+    types: [closed]
+
+jobs:
+  prune_branches:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get Branch Name
+        id: get_branch_name
+        shell: bash
+        run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/} | tr / -)"
+      - uses: actions-hub/gcloud@268.0.0
+        env:
+          APPLICATION_CREDENTIALS: ${{ secrets.GCLOUD_SERVICE_KEY }}
+        with:
+          args: app versions delete preview-${{ steps.get_branch.outputs.branch }} --quiet

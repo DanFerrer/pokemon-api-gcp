@@ -1,0 +1,19 @@
+{
+  "name": "pokemon-api-gcp",
+  "version": "1.0.0",
+  "description": "Google App Engine Node App POC for Github workflows",
+  "main": "index.js",
+  "author": "DanFerrer <danielferrer212@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node index.js",
+    "debug": "nodemon --inspect index.js",
+    "test": "mocha --timeout 10000 --exit"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "express": "^4.17.1",
+    "mocha": "^8.2.0"
+  }
+}

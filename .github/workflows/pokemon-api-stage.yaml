@@ -1,0 +1,36 @@
+name: pokemon-api-staging
+
+on: 
+  push: 
+    branches: [master]
+
+jobs:
+  unit_test_staging:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 10
+      - name: Install Node Dependencies
+        run: yarn install --frozen-lockfile
+      - name: Run all Unit Tests
+        run: CI=true yarn test
+  deploy_branch_staging_env:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get Branch Name
+        id: get_branch_name
+        shell: bash
+        run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/} | tr / -)"
+      - uses: actions-hub/gcloud@268.0.0
+        with:
+          args: app deploy  --no-promote --quiet --version stage-${{ steps.get_branch.outputs.branch }}
+    env:
+      APPLICATION_CREDENTIALS: ${{ secrets.GCLOUD_SERVICE_KEY }}
+   
+
+    
+
+
+  
