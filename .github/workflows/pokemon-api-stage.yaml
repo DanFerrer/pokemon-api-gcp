@@ -22,10 +22,11 @@ jobs:
       - name: Get Branch Name
         id: get_branch_name
         shell: bash
-        run: ls -lah && echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/} | tr / -)"
+        run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/} | tr / -)"
       - uses: actions-hub/gcloud@master
+      - uses: actions/checkout@v2
         with:
-          args: app deploy ./app.yaml --no-promote --quiet --version stage-${{ steps.get_branch_name.outputs.branch }}
+          args: app deploy app.yaml --no-promote --quiet --version stage-${{ steps.get_branch_name.outputs.branch }}
     env:
       PROJECT_ID: ${{ secrets.GCLOUD_PROJECT_ID }}
       APPLICATION_CREDENTIALS: ${{ secrets.GCLOUD_SERVICE_KEY }}
