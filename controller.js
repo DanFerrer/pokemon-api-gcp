@@ -1,20 +1,15 @@
 const pokedex = require('./pokedex.json');
 const { ErrorHandler } = require('./utils/error');
   
-async function getPokemonById(req, res, next) {
+function getPokemonById(req, res, next) {
   const { id } = req.params;
-
-  try {
-    const pokemon = pokedex.find((pokemon) => pokemon.id === parseInt(id));
+  const pokemon = pokedex.find((pokemon) => pokemon.id === parseInt(id));
 
     if (pokemon) {
-      return res.status(200).json(pokemon);
+      return res.status(200).send(pokemon);
     } else {
-      throw new ErrorHandler(404, 'Pokemon not found');
+     next(new ErrorHandler(404, 'Pokemon not found'));
     }
-  } catch(err) {
-    next(err);
-  }
 };
 
 module.exports = {

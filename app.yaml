@@ -1,3 +1,2 @@
-runtime: nodejs10
-instance_class: F1
+runtime: nodejs12
 

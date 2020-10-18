@@ -1,6 +1,6 @@
 const express = require('express');
-const app = express()
-const PORT = process.env.port || 8000;
+const app = express();
+const PORT = process.env.PORT || 8000;
 
 const { getPokemonById } = require('./controller');
 const { handleError } = require('./utils/error');
@@ -11,4 +11,4 @@ app.use(handleError);
 
 app.listen(PORT, () => console.log(`Pokedex listening at port ${PORT}`));
 
-module.exports = app
+module.exports = app;

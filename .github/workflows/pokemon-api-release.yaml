@@ -17,19 +17,49 @@ jobs:
       - name: Run all Unit Tests
         run: CI=true yarn test
   deploy_release:
+    name: Deploy To GCP & Github
     runs-on: ubuntu-latest
     steps:
-      - name: Get Tag Name
+      - uses: actions/checkout@v2
+      - uses: chrnorm/deployment-action@releases/v1
+        name: Create GitHub deployment
+        id: deployment
+        with:
+          token: "${{ github.token }}"
+          target_url: https://pokedex-api-gcp.uc.r.appspot.com
+          environment: production
+          initial_status: in_progress
+
+      - name: Create GCP deployment
         id: get_tag_name
         shell: bash
         run: echo "##[set-output name=tag;]$(echo ${GITHUB_REF#refs/tags/} | tr . -)"
-      - uses: actions/checkout@v2
       - uses: actions-hub/gcloud@master
         env:
           PROJECT_ID: ${{ secrets.GCLOUD_PROJECT_ID }}
           APPLICATION_CREDENTIALS: ${{ secrets.GCLOUD_SERVICE_KEY }}
         with:
-          args: app deploy app.yaml --no-promote --quiet --version ${{ steps.get_branch_name.outputs.tag }}
+          args: app deploy app.yaml --no-promote --quiet --version ${{ steps.get_tag_name.outputs.tag }}
+      
+      - name: Update deployment status (success)
+        if: success()
+        uses: chrnorm/deployment-status@releases/v1
+        with:
+          token: "${{ github.token }}"
+          target_url: https://pokedex-api-gcp.uc.r.appspot.com
+          state: "success"
+          deployment_id: ${{ steps.deployment.outputs.deployment_id }}
+      
+      - name: Update deployment status (failure)
+        if: failure()
+        uses: chrnorm/deployment-status@releases/v1
+        with:
+          token: "${{ github.token }}"
+          target_url: https://pokedex-api-gcp.uc.r.appspot.com
+          state: "failure"
+          deployment_id: ${{ steps.deployment.outputs.deployment_id }}
+      
+
       
 
 

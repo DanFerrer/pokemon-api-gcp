@@ -19,14 +19,10 @@ jobs:
   deploy_branch_staging_env:
     runs-on: ubuntu-latest
     steps:
-      - name: Get Branch Name
-        id: get_branch_name
-        shell: bash
-        run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/} | tr / -)"
       - uses: actions/checkout@v2
       - uses: actions-hub/gcloud@master
-        with:
-          args: app deploy app.yaml --no-promote --quiet --version stage-${{ steps.get_branch_name.outputs.branch }}
+        with: 
+          args: app deploy app.yaml --no-promote --quiet --version pokemon-api-staging
     env:
       PROJECT_ID: ${{ secrets.GCLOUD_PROJECT_ID }}
       APPLICATION_CREDENTIALS: ${{ secrets.GCLOUD_SERVICE_KEY }}
