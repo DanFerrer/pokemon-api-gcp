@@ -19,17 +19,18 @@ jobs:
   deploy_branch_preview_env:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout Repo
+      - uses: actions/checkout@v2
       - name: Get Branch Name
         id: get_branch_name
         shell: bash
         run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/} | tr / -)"
-      - uses: actions/checkout@v2
       - uses: actions-hub/gcloud@master
         env:
           PROJECT_ID: ${{ secrets.GCLOUD_PROJECT_ID }}
           APPLICATION_CREDENTIALS: ${{ secrets.GCLOUD_SERVICE_KEY }}
         with:
-          args: app deploy app.yaml --no-promote --quiet --version preview-${{ steps.get_branch_name.outputs.branch }} 
+          args: app deploy app.yaml --no-promote --quiet --version ${{ steps.get_branch_name.outputs.branch }} 
     
    
 

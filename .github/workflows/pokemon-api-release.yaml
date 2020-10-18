@@ -19,11 +19,12 @@ jobs:
   deploy_release:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout Repo
+      - uses: actions/checkout@v2
       - name: Get Tag Name
         id: get_tag_name
         shell: bash
         run: echo "##[set-output name=tag;]$(echo ${GITHUB_REF#refs/tags/} | tr . -)"
-      - uses: actions/checkout@v2
       - uses: actions-hub/gcloud@master
         env:
           PROJECT_ID: ${{ secrets.GCLOUD_PROJECT_ID }}
