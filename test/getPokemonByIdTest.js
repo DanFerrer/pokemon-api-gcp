@@ -19,9 +19,22 @@ describe('/GET pokedex/:id', () => {
         })  
   });
 
-  it('should return an error if an invalid id is provided', (done) => {
+  it('should retrieve johto pokemon', (done) => {
     chai.request(app)
         .get('/pokedex/152')
+        .end((err, res) => {
+          res.should.have.status(200);
+          res.should.be.a('object');
+          res.body.name.should.be.eql('chikorita');
+          res.body.url.should.be.eql('https://pokeapi.co/api/v2/pokemon/152/');
+          res.body.id.should.be.eql(152);
+          done();
+        })  
+  });
+
+  it('should return an error if an invalid id is provided', (done) => {
+    chai.request(app)
+        .get('/pokedex/252')
         .end((err, res) => {
           res.should.have.status(404);
           res.should.be.a('object');
