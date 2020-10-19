@@ -904,5 +904,605 @@
     "url": "https://pokeapi.co/api/v2/pokemon/151/",
     "id": 151,
     "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/151.png"
+  },
+  {
+    "name": "chikorita",
+    "url": "https://pokeapi.co/api/v2/pokemon/152/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/152.png",
+    "id": 152
+  },
+  {
+    "name": "bayleef",
+    "url": "https://pokeapi.co/api/v2/pokemon/153/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/153.png",
+    "id": 153
+  },
+  {
+    "name": "meganium",
+    "url": "https://pokeapi.co/api/v2/pokemon/154/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/154.png",
+    "id": 154
+  },
+  {
+    "name": "cyndaquil",
+    "url": "https://pokeapi.co/api/v2/pokemon/155/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/155.png",
+    "id": 155
+  },
+  {
+    "name": "quilava",
+    "url": "https://pokeapi.co/api/v2/pokemon/156/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/156.png",
+    "id": 156
+  },
+  {
+    "name": "typhlosion",
+    "url": "https://pokeapi.co/api/v2/pokemon/157/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/157.png",
+    "id": 157
+  },
+  {
+    "name": "totodile",
+    "url": "https://pokeapi.co/api/v2/pokemon/158/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/158.png",
+    "id": 158
+  },
+  {
+    "name": "croconaw",
+    "url": "https://pokeapi.co/api/v2/pokemon/159/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/159.png",
+    "id": 159
+  },
+  {
+    "name": "feraligatr",
+    "url": "https://pokeapi.co/api/v2/pokemon/160/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/160.png",
+    "id": 160
+  },
+  {
+    "name": "sentret",
+    "url": "https://pokeapi.co/api/v2/pokemon/161/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/161.png",
+    "id": 161
+  },
+  {
+    "name": "furret",
+    "url": "https://pokeapi.co/api/v2/pokemon/162/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/162.png",
+    "id": 162
+  },
+  {
+    "name": "hoothoot",
+    "url": "https://pokeapi.co/api/v2/pokemon/163/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/163.png",
+    "id": 163
+  },
+  {
+    "name": "noctowl",
+    "url": "https://pokeapi.co/api/v2/pokemon/164/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/164.png",
+    "id": 164
+  },
+  {
+    "name": "ledyba",
+    "url": "https://pokeapi.co/api/v2/pokemon/165/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/165.png",
+    "id": 165
+  },
+  {
+    "name": "ledian",
+    "url": "https://pokeapi.co/api/v2/pokemon/166/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/166.png",
+    "id": 166
+  },
+  {
+    "name": "spinarak",
+    "url": "https://pokeapi.co/api/v2/pokemon/167/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/167.png",
+    "id": 167
+  },
+  {
+    "name": "ariados",
+    "url": "https://pokeapi.co/api/v2/pokemon/168/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/168.png",
+    "id": 168
+  },
+  {
+    "name": "crobat",
+    "url": "https://pokeapi.co/api/v2/pokemon/169/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/169.png",
+    "id": 169
+  },
+  {
+    "name": "chinchou",
+    "url": "https://pokeapi.co/api/v2/pokemon/170/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/170.png",
+    "id": 170
+  },
+  {
+    "name": "lanturn",
+    "url": "https://pokeapi.co/api/v2/pokemon/171/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/171.png",
+    "id": 171
+  },
+  {
+    "name": "pichu",
+    "url": "https://pokeapi.co/api/v2/pokemon/172/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/172.png",
+    "id": 172
+  },
+  {
+    "name": "cleffa",
+    "url": "https://pokeapi.co/api/v2/pokemon/173/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/173.png",
+    "id": 173
+  },
+  {
+    "name": "igglybuff",
+    "url": "https://pokeapi.co/api/v2/pokemon/174/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/174.png",
+    "id": 174
+  },
+  {
+    "name": "togepi",
+    "url": "https://pokeapi.co/api/v2/pokemon/175/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/175.png",
+    "id": 175
+  },
+  {
+    "name": "togetic",
+    "url": "https://pokeapi.co/api/v2/pokemon/176/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/176.png",
+    "id": 176
+  },
+  {
+    "name": "natu",
+    "url": "https://pokeapi.co/api/v2/pokemon/177/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/177.png",
+    "id": 177
+  },
+  {
+    "name": "xatu",
+    "url": "https://pokeapi.co/api/v2/pokemon/178/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/178.png",
+    "id": 178
+  },
+  {
+    "name": "mareep",
+    "url": "https://pokeapi.co/api/v2/pokemon/179/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/179.png",
+    "id": 179
+  },
+  {
+    "name": "flaaffy",
+    "url": "https://pokeapi.co/api/v2/pokemon/180/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/180.png",
+    "id": 180
+  },
+  {
+    "name": "ampharos",
+    "url": "https://pokeapi.co/api/v2/pokemon/181/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/181.png",
+    "id": 181
+  },
+  {
+    "name": "bellossom",
+    "url": "https://pokeapi.co/api/v2/pokemon/182/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/182.png",
+    "id": 182
+  },
+  {
+    "name": "marill",
+    "url": "https://pokeapi.co/api/v2/pokemon/183/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/183.png",
+    "id": 183
+  },
+  {
+    "name": "azumarill",
+    "url": "https://pokeapi.co/api/v2/pokemon/184/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/184.png",
+    "id": 184
+  },
+  {
+    "name": "sudowoodo",
+    "url": "https://pokeapi.co/api/v2/pokemon/185/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/185.png",
+    "id": 185
+  },
+  {
+    "name": "politoed",
+    "url": "https://pokeapi.co/api/v2/pokemon/186/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/186.png",
+    "id": 186
+  },
+  {
+    "name": "hoppip",
+    "url": "https://pokeapi.co/api/v2/pokemon/187/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/187.png",
+    "id": 187
+  },
+  {
+    "name": "skiploom",
+    "url": "https://pokeapi.co/api/v2/pokemon/188/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/188.png",
+    "id": 188
+  },
+  {
+    "name": "jumpluff",
+    "url": "https://pokeapi.co/api/v2/pokemon/189/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/189.png",
+    "id": 189
+  },
+  {
+    "name": "aipom",
+    "url": "https://pokeapi.co/api/v2/pokemon/190/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/190.png",
+    "id": 190
+  },
+  {
+    "name": "sunkern",
+    "url": "https://pokeapi.co/api/v2/pokemon/191/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/191.png",
+    "id": 191
+  },
+  {
+    "name": "sunflora",
+    "url": "https://pokeapi.co/api/v2/pokemon/192/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/192.png",
+    "id": 192
+  },
+  {
+    "name": "yanma",
+    "url": "https://pokeapi.co/api/v2/pokemon/193/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/193.png",
+    "id": 193
+  },
+  {
+    "name": "wooper",
+    "url": "https://pokeapi.co/api/v2/pokemon/194/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/194.png",
+    "id": 194
+  },
+  {
+    "name": "quagsire",
+    "url": "https://pokeapi.co/api/v2/pokemon/195/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/195.png",
+    "id": 195
+  },
+  {
+    "name": "espeon",
+    "url": "https://pokeapi.co/api/v2/pokemon/196/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/196.png",
+    "id": 196
+  },
+  {
+    "name": "umbreon",
+    "url": "https://pokeapi.co/api/v2/pokemon/197/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/197.png",
+    "id": 197
+  },
+  {
+    "name": "murkrow",
+    "url": "https://pokeapi.co/api/v2/pokemon/198/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/198.png",
+    "id": 198
+  },
+  {
+    "name": "slowking",
+    "url": "https://pokeapi.co/api/v2/pokemon/199/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/199.png",
+    "id": 199
+  },
+  {
+    "name": "misdreavus",
+    "url": "https://pokeapi.co/api/v2/pokemon/200/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/200.png",
+    "id": 200
+  },
+  {
+    "name": "unown",
+    "url": "https://pokeapi.co/api/v2/pokemon/201/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/201.png",
+    "id": 201
+  },
+  {
+    "name": "wobbuffet",
+    "url": "https://pokeapi.co/api/v2/pokemon/202/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/202.png",
+    "id": 202
+  },
+  {
+    "name": "girafarig",
+    "url": "https://pokeapi.co/api/v2/pokemon/203/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/203.png",
+    "id": 203
+  },
+  {
+    "name": "pineco",
+    "url": "https://pokeapi.co/api/v2/pokemon/204/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/204.png",
+    "id": 204
+  },
+  {
+    "name": "forretress",
+    "url": "https://pokeapi.co/api/v2/pokemon/205/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/205.png",
+    "id": 205
+  },
+  {
+    "name": "dunsparce",
+    "url": "https://pokeapi.co/api/v2/pokemon/206/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/206.png",
+    "id": 206
+  },
+  {
+    "name": "gligar",
+    "url": "https://pokeapi.co/api/v2/pokemon/207/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/207.png",
+    "id": 207
+  },
+  {
+    "name": "steelix",
+    "url": "https://pokeapi.co/api/v2/pokemon/208/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/208.png",
+    "id": 208
+  },
+  {
+    "name": "snubbull",
+    "url": "https://pokeapi.co/api/v2/pokemon/209/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/209.png",
+    "id": 209
+  },
+  {
+    "name": "granbull",
+    "url": "https://pokeapi.co/api/v2/pokemon/210/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/210.png",
+    "id": 210
+  },
+  {
+    "name": "qwilfish",
+    "url": "https://pokeapi.co/api/v2/pokemon/211/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/211.png",
+    "id": 211
+  },
+  {
+    "name": "scizor",
+    "url": "https://pokeapi.co/api/v2/pokemon/212/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/212.png",
+    "id": 212
+  },
+  {
+    "name": "shuckle",
+    "url": "https://pokeapi.co/api/v2/pokemon/213/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/213.png",
+    "id": 213
+  },
+  {
+    "name": "heracross",
+    "url": "https://pokeapi.co/api/v2/pokemon/214/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/214.png",
+    "id": 214
+  },
+  {
+    "name": "sneasel",
+    "url": "https://pokeapi.co/api/v2/pokemon/215/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/215.png",
+    "id": 215
+  },
+  {
+    "name": "teddiursa",
+    "url": "https://pokeapi.co/api/v2/pokemon/216/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/216.png",
+    "id": 216
+  },
+  {
+    "name": "ursaring",
+    "url": "https://pokeapi.co/api/v2/pokemon/217/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/217.png",
+    "id": 217
+  },
+  {
+    "name": "slugma",
+    "url": "https://pokeapi.co/api/v2/pokemon/218/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/218.png",
+    "id": 218
+  },
+  {
+    "name": "magcargo",
+    "url": "https://pokeapi.co/api/v2/pokemon/219/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/219.png",
+    "id": 219
+  },
+  {
+    "name": "swinub",
+    "url": "https://pokeapi.co/api/v2/pokemon/220/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/220.png",
+    "id": 220
+  },
+  {
+    "name": "piloswine",
+    "url": "https://pokeapi.co/api/v2/pokemon/221/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/221.png",
+    "id": 221
+  },
+  {
+    "name": "corsola",
+    "url": "https://pokeapi.co/api/v2/pokemon/222/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/222.png",
+    "id": 222
+  },
+  {
+    "name": "remoraid",
+    "url": "https://pokeapi.co/api/v2/pokemon/223/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/223.png",
+    "id": 223
+  },
+  {
+    "name": "octillery",
+    "url": "https://pokeapi.co/api/v2/pokemon/224/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/224.png",
+    "id": 224
+  },
+  {
+    "name": "delibird",
+    "url": "https://pokeapi.co/api/v2/pokemon/225/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/225.png",
+    "id": 225
+  },
+  {
+    "name": "mantine",
+    "url": "https://pokeapi.co/api/v2/pokemon/226/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/226.png",
+    "id": 226
+  },
+  {
+    "name": "skarmory",
+    "url": "https://pokeapi.co/api/v2/pokemon/227/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/227.png",
+    "id": 227
+  },
+  {
+    "name": "houndour",
+    "url": "https://pokeapi.co/api/v2/pokemon/228/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/228.png",
+    "id": 228
+  },
+  {
+    "name": "houndoom",
+    "url": "https://pokeapi.co/api/v2/pokemon/229/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/229.png",
+    "id": 229
+  },
+  {
+    "name": "kingdra",
+    "url": "https://pokeapi.co/api/v2/pokemon/230/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/230.png",
+    "id": 230
+  },
+  {
+    "name": "phanpy",
+    "url": "https://pokeapi.co/api/v2/pokemon/231/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/231.png",
+    "id": 231
+  },
+  {
+    "name": "donphan",
+    "url": "https://pokeapi.co/api/v2/pokemon/232/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/232.png",
+    "id": 232
+  },
+  {
+    "name": "porygon2",
+    "url": "https://pokeapi.co/api/v2/pokemon/233/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/233.png",
+    "id": 233
+  },
+  {
+    "name": "stantler",
+    "url": "https://pokeapi.co/api/v2/pokemon/234/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/234.png",
+    "id": 234
+  },
+  {
+    "name": "smeargle",
+    "url": "https://pokeapi.co/api/v2/pokemon/235/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/235.png",
+    "id": 235
+  },
+  {
+    "name": "tyrogue",
+    "url": "https://pokeapi.co/api/v2/pokemon/236/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/236.png",
+    "id": 236
+  },
+  {
+    "name": "hitmontop",
+    "url": "https://pokeapi.co/api/v2/pokemon/237/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/237.png",
+    "id": 237
+  },
+  {
+    "name": "smoochum",
+    "url": "https://pokeapi.co/api/v2/pokemon/238/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/238.png",
+    "id": 238
+  },
+  {
+    "name": "elekid",
+    "url": "https://pokeapi.co/api/v2/pokemon/239/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/239.png",
+    "id": 239
+  },
+  {
+    "name": "magby",
+    "url": "https://pokeapi.co/api/v2/pokemon/240/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/240.png",
+    "id": 240
+  },
+  {
+    "name": "miltank",
+    "url": "https://pokeapi.co/api/v2/pokemon/241/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/241.png",
+    "id": 241
+  },
+  {
+    "name": "blissey",
+    "url": "https://pokeapi.co/api/v2/pokemon/242/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/242.png",
+    "id": 242
+  },
+  {
+    "name": "raikou",
+    "url": "https://pokeapi.co/api/v2/pokemon/243/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/243.png",
+    "id": 243
+  },
+  {
+    "name": "entei",
+    "url": "https://pokeapi.co/api/v2/pokemon/244/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/244.png",
+    "id": 244
+  },
+  {
+    "name": "suicune",
+    "url": "https://pokeapi.co/api/v2/pokemon/245/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/245.png",
+    "id": 245
+  },
+  {
+    "name": "larvitar",
+    "url": "https://pokeapi.co/api/v2/pokemon/246/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/246.png",
+    "id": 246
+  },
+  {
+    "name": "pupitar",
+    "url": "https://pokeapi.co/api/v2/pokemon/247/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/247.png",
+    "id": 247
+  },
+  {
+    "name": "tyranitar",
+    "url": "https://pokeapi.co/api/v2/pokemon/248/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/248.png",
+    "id": 248
+  },
+  {
+    "name": "lugia",
+    "url": "https://pokeapi.co/api/v2/pokemon/249/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/249.png",
+    "id": 249
+  },
+  {
+    "name": "ho-oh",
+    "url": "https://pokeapi.co/api/v2/pokemon/250/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/250.png",
+    "id": 250
+  },
+  {
+    "name": "celebi",
+    "url": "https://pokeapi.co/api/v2/pokemon/251/",
+    "imgSrc": "https://pokeres.bastionbot.org/images/pokemon/251.png",
+    "id": 251
   }
 ]
